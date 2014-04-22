@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+}
+#wrapper, #header, #header_top, #menu, #content{
+    width: 950px;
+}
+#wrapper{
+    margin: 0 auto 0 auto;
+    height: 600px;
+}
+/*HEADER*/
+#header{
+    height: 180px;
+    background-color: #FDFEFF;
+}
+#header_top{
+    height: 110px;
+}
+#header-top-text, #header-top-img{
+    float: left;
+    margin: 10px;
+}
+#header-top-img{
+    padding-left: 216px;
+    padding-right: 15px;
+}
+#header-top-text{
+    margin-top: 45px;
+}
+
+#wrapper>#header>#header-line>img, #content2>#content2-left>img{
+    background-repeat: repeat-x;
+    height: 2px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#header-top-text p{
+    font: Georgia, "Times New Roman", Times, serif;
+    font-size: 16pt;
+    color: #2980b9;
+}
+#menu{
+    height: 100%;
+}
+#menu-icon, #menu-nav, #menu-search{
+    float: left;
+}
+#menu-nav, #menu-search{
+    margin-top: 10px;
+}
+#menu-icon{
+    padding-right: 32px;
+}
+/*HEADER*/
+
+/*CONTENT*/
+#content{
+
+    height: 100%;
+}
+#content1{
+    height: 637px;
+    background-color: #2A80B9;
+}
+#content2{
+    height: 440px;
+    background-color: #EEF3FA;
+}
+#content2-left{
+    width: 251px;
+    float: left;
+}
+#content2-right{
+    width: 500px;
+    float: left;
+}
+
+/*CONTENT*/
